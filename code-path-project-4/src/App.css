@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  color:black;
+  background: URL("https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149038179.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card {
+  padding: 2em;
+}
+
+
+.categories-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+.mini-cards{
+  background: rgb(176, 176, 243);
+  color: black;
+  padding:10px;
+  margin:0 50px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.mini-cards:hover{
+  cursor: pointer;
+  background: black;
+  color: rgb(176, 176, 243);
+  box-shadow: 0 0 20px black;
+  transform: scale(1.1);
+}
+
+.image-container{
+  width:fit-content;
+  height:500px;
+  background: lightgray;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid brown;
+  transition:0.3s;
+}
+
+.image-container:hover{
+  box-shadow:0 0 30px black;
+  transform: scale(1.1);
+  border: 2px solid white;
+}
+
+.piece-image{
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.fetch-button{
+  margin:20px;
+  transition:0.3s;
+  outline: none;
+}
+
+.fetch-button:hover{
+  transition:0.3s;
+  box-shadow: 0 0 30px black;
+}
+
+.fetch-button:active{
+  transform: scale(1.1);
+}
